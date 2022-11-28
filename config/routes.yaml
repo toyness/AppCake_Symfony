@@ -1,0 +1,17 @@
+reg_user:
+    path: /login
+    controller: App\Controller\LoginController::reg_user     
+post:
+    path: /post
+    controller: App\Controller\PostController::post    
+blog:
+    path: /blog
+    controller: App\Controller\BlogController::blog    
+# homepage:
+#    path: /{_locale}
+#    controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController::templateAction
+#    requirements:
+#        _locale: '%app_locales%'
+#    defaults:
+#        template: default/index.html.twig
+#        _locale: '%locale%'
